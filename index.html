@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header id="main-header">
+    <header>
         <nav class="relative mx-auto p-3">
             <!-- Flex container -->
             <div class="flex items-center justify-between">
@@ -46,6 +46,10 @@
                     class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
                     Enroll Now
                 </a>
+                <a href="#"
+                    class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+                    Book Live Session
+                </a>
 
                 <!-- Hamburger Icon -->
                 <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
@@ -71,28 +75,25 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-2 space-y-0 md:space-y-0 md:flex-row">
-            <div class="flex flex-col my-12 space-y-12 md:w-1/2">
-                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                    Your Journey to Safe & Confident Driving Begins Here - <span class="text-secondaryColor">Divine
+    <section id="hero"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.30),
+            rgba(0, 0, 0, 0.30)), url(./images/Black-instructor-alone.jpg); background-repeat: no-repeat; background-position: 0% 0%; background-size: cover;">
+        <div class="container flex items-center px-6 mx-auto mt-2 space-y-0 md:space-y-0 md:flex-row justify-center">
+            <div class="flex flex-col my-12 space-y-12">
+                <h1 class="max-w-l text-4xl font-bold text-white text-center md:text-5xl">
+                    Your Journey to Safe & Confident Driving Begins Here.<br><br><span
+                        class="text-secondaryColor">Divine
                     </span> Int'l Driving School
                 </h1>
-                <p class="max-w-sm text-center text-black md:text-left">
+                <!-- <p class="max-w-md text-center font-bold text-3xl text-white md:text-center">
                     Enroll today and learn from the best. Whether you're a beginner or seeking advanced skills, our
-                    instructors are ready to guide you. Explore our comprehensive courses and drive towards a
-                    safer future.
-                </p>
-                <div class="flex justify-center md:justify-start">
+                    instructors are ready to guide you.</p> -->
+                <div class="flex justify-center md:justify-center">
                     <a href="#"
                         class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
                         Enroll Now
                     </a>
                 </div>
-            </div>
-            <div class="md:w-1/2">
-                <img src="./images/Black-instructor-with-a-trainer.jpg"
-                    alt="An instructor with a student in a car during training" class="rounded-lg">
             </div>
         </div>
     </section>
@@ -253,8 +254,10 @@
                     <img src="./images/executive-training.png" alt="Anisha" class="w-17 -mt-14">
                     <h2 class="text-2xl font-bold">Executive Training</h2>
                     <p class="text-sm text-darkGrayishBlue">
-                        “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger
-                        milestones at all times keeps everyone motivated.”
+                        The Executive Training Course at DriveLord Academy is designed for busy professionals who seek
+                        to enhance their driving skills in a time-efficient manner. Tailored for executives and
+                        high-level professionals, this course offers personalized instruction that fits into a demanding
+                        schedule.
                     </p>
                 </div>
                 <!-- Testimonial 2 -->
@@ -262,8 +265,9 @@
                     <img src="./images/intensive-training.png" alt="Anisha" class="w-17 -mt-14">
                     <h2 class="text-2xl font-bold">Intensive Training</h2>
                     <p class="text-sm text-darkGrayishBlue">
-                        “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger
-                        milestones at all times keeps everyone motivated.”
+                        The Intensive Training Course is ideal for individuals who want to learn to drive quickly and
+                        effectively. This accelerated program condenses the standard driver education curriculum into a
+                        shorter timeframe, offering comprehensive training in a matter of weeks rather than months.
                     </p>
                 </div>
                 <!-- Testimonial 3 -->
@@ -271,12 +275,15 @@
                     <img src="./images/refresher-training.png" alt="Anisha" class="w-17 -mt-14">
                     <h2 class="text-2xl font-bold">Refresher Training</h2>
                     <p class="text-sm text-darkGrayishBlue">
-                        “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger
-                        milestones at all times keeps everyone motivated.”
+                        The Refresher Training Course is designed for experienced drivers who want to update their
+                        knowledge and skills. Whether it's been years since you last drove or you're looking to
+                        familiarize yourself with new road laws and technologies, this course provides the perfect
+                        opportunity to refresh your driving abilities.
                     </p>
                 </div>
             </div>
-            <p class="text-md text-primaryColor font-bold md:hidden"><a href="#">Check out more of our Courses...</a>
+            <p class="text-md text-primaryColor font-bold md:hidden"><a href="./pages/courses.html">Check out more of
+                    our Courses...</a>
             </p>
             <!-- Courses Buttons -->
             <div class="flex justify-around items-center">
@@ -362,61 +369,64 @@
         </div>
     </section>
 
+
     <!-- Footer Section -->
     <footer class="bg-veryDarkBlue">
-        <!-- flex Container -->
-        <div class="flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
-            <!-- Logo and Social link container -->
-            <div
-                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
-                <div class="mx-auto my-6 text-center text-white md:hidden">
-                    Copyright &copy; 2024, All Right Reserved
-                </div>
-                <!-- Logo -->
-                <div class="flex justify-center items-center md:hidden">
-                    <a href="index.html"><img src="./images/traning logo.png" width="20%"></a>
-                </div>
-                <div class="hidden flex-col justify-center items-center md:block">
-                    <a href="index.html"><img src="./images/traning logo.png" width="20%"></a>
-                </div>
-                <!-- Social links -->
-                <div class="flex justify-center space-x-4">
-                    <a href="#">
-                        <img src="./images/icon-facebook.svg" class="h-8" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./images/icon-youtube.svg" class="h-8" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./images/icon-twitter.svg" class="h-8" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./images/icon-instagram.svg" class="h-8" alt="">
-                    </a>
-                </div>
+        <div
+            class="flex flex-col-reverse justify-between items-start px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2024, All Right Reserved
             </div>
 
-            <!-- list container -->
+            <div class="flex flex-col justify-center" style="gap: 30px">
+                <div class="flex justify-center items-center px-4" style="gap: 10px;">
+                    <i class="fa-solid fa-phone text-white text-2xl"></i><br>
+                    <p class="text-white">+234 9045034763</p>
+                    <p class="text-white">+234 7034111763</p>
+                </div>
+
+                <div class="flex justify-center items-center space-x-4">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook text-white text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter  text-white text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram facebook text-white text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin text-white text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-envelope text-white text-3xl"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- link container -->
             <div class="flex justify-between space-x-32">
                 <div class="flex flex-col space-y-3 text-white">
-                    <a href="#" class="hover:text-brightRed">Home</a>
-                    <a href="#" class="hover:text-brightRed">About Us</a>
-                    <a href="#" class="hover:text-brightRed">Courses</a>
-                    <a href="#" class="hover:text-brightRed">Gallery</a>
-                    <a href="#" class="hover:text-brightRed">Contact Us</a>
+                    <a href="/index.html" class="hover:text-brightRed">Home</a>
+                    <a href="./pages/about.html" class="hover:text-brightRed">About Us</a>
+                    <a href="./pages/courses.html" class="hover:text-brightRed">Courses</a>
+                    <a href="./pages/gallery.html" class="hover:text-brightRed">Gallery</a>
+                    <a href="./pages/contact.html" class="hover:text-brightRed">Contact Us</a>
                 </div>
                 <div class="flex flex-col space-y-3 text-white">
                     <a href="#" class="hover:text-brightRed">Blogs</a>
                     <a href="#" class="hover:text-brightRed">Enroll</a>
-                    <a href="#" class="hover:text-brightRed">FAQ</a>
+                    <a href="./pages/faq.html" class="hover:text-brightRed">FAQ</a>
+                    <a href="#" class="hover:text-brightRed">Book Live Session</a>
                     <a href="#" class="hover:text-brightRed">Privacy Policy</a>
                 </div>
             </div>
 
             <!-- Form  container -->
-            <div class="flex flex-col justify-between">
+            <div class="flex flex-col justify-center" style="gap: 30px">
                 <form>
-                    <div class="flex space-x-3">
+                    <div class="flex space-x-3 py-5">
                         <input type="text" placeholder="Updated in your inbox"
                             class="flex-1 px-4 rounded-full focus:outline-none">
                         <button
@@ -429,6 +439,7 @@
                     Copyright &copy; 2024, All Rightd Reserved
                 </div>
             </div>
+
         </div>
     </footer>
 
