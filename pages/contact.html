@@ -24,7 +24,7 @@
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="flex p-2 items-center justify-center">
-                    <a href="../index.html"><img src="../images/traning logo.png" alt="DriveLord Logo" class="w-3"
+                    <a href="../index.html"><img src="../images/traning logo.png" alt="Divine Logo" class="w-3"
                             style="width: 65px" />
                     </a>
                     <h1
@@ -76,39 +76,85 @@
     </header>
 
     <!-- contact Us section -->
-    <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us
+    <section class="mx-auto px-4 py-12"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.58),
+            rgba(0, 0, 0, 0.58)), url(../images/contact-bg.jpg); background-repeat: no-repeat; background-position: 0% 80%; background-size: cover; max-width: 1440px; min-height: 500px;">
+        <div class="max-w-6xl px-5 py-5 mx-auto text-center pt-6 text-white">
+            <br>
+            <h2 class="text-4xl font-bold text-center">
+                Contact Us
             </h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical
-                issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+            <br>
+            <p class="text-2xl">
+                Do you have a Question or Need More Information about <span class="text-secondaryColor font-bold">Divine
+                </span> Int'l Driving School?
+
+                Feel free to fill out the contact form below, and one of our friendly team members will get back to you
+                as soon as possible. Whether you’re a prospective student, a current trainee, or a parent looking for
+                information, we’re here to assist you.
             </p>
-            <form action="#" class="space-y-8">
-                <div>
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
-                        email</label>
-                    <input type="email" id="email"
-                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="name@flowbite.com" required>
-                </div>
-                <div>
-                    <label for="subject"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                    <input type="text" id="subject"
-                        class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="Let us know how we can help you" required>
-                </div>
-                <div class="sm:col-span-2">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
-                        message</label>
-                    <textarea id="message" rows="6"
-                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                        placeholder="Leave a comment..."></textarea>
-                </div>
-                <button type="submit"
-                    class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
-                    message</button>
-            </form>
+            <br>
+            <br><br>
+            <div class="container py-16 mx-auto max-w-screen-md">
+
+                <form action="#" class="space-y-4">
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <label for=" name" class="block text-2xl mb-6 font-semibold text-gray-200">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required
+                            style="border-radius: 8px; padding: 10px; width: 80%; font-size: 1rem; color: black;">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email" class="block text-2xl mb-6 font-semibold text-gray-200">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required
+                            style="border-radius: 8px; padding: 10px; width: 100%; height: 100px 1rem; color: black;">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="message" class="block text-2xl mb-6 font-semibold text-gray-200">Your
+                            Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required
+                            style="border-radius: 8px; padding: 10px; width: 100%; height: 150px; font-size: 1rem; color: black;"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit"
+                            style="border-radius: 8px; padding: 10px; width: 100%; font-size: 1rem; background-color: black; color: white;">
+                            Send Message
+                        </button>
+                    </div>
+                    <br><br>
+                </form>
+
+
+
+                <!-- <form action="#" class="space-y-8">
+                    <div class="flex flex-col justify-center items-center">
+                        <label for="email" class="block mb-2 text-xl font-medium text-gray-900 dark:text-gray-300">Your
+                            email</label>
+                        <input type="email" id="email" placeholder="example123@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="subject"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                        <input type="text" id="subject"
+                            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                            placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                            message</label>
+                        <textarea id="message" rows="6"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                            placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit"
+                        class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-darkGrayishBlue dark:focus:ring-primary-800">Send
+                        message</button>
+                </form> -->
+
+            </div>
         </div>
     </section>
 
@@ -122,7 +168,7 @@
                 Ready to Master Driving Today?
             </h2>
             <div class="my-16">
-                <a href="https://forms.gle/PNjv8EUneEQf7CEJ8" target="”_blank”"
+                <a href="https://forms.gle/PNjv8EUneEQf7CEJ8" target=”_blank”
                     class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-black">
                     Enroll Now
                 </a>
@@ -148,26 +194,26 @@
                         FCT Abuja.<br>
                         <br>
                         <!-- <i class="fa-solid fa-phone text-white text-2xl"></i><br> -->
-                        +234 9045034763<br>
-                        +234 7034111763
+                        +234 8035963573<br>
+                        +234 8187558729
                     </p>
                 </div>
                 <br>
                 <div class="flex justify-center items-center space-x-4">
                     <a href="https://www.facebook.com/divineintldrivingschool">
-                        <i class="fa-brands fa-facebook text-white text-3xl"></i>
+                        <i class="fa-brands fa-facebook text-white text-lg"></i>
                     </a>
                     <a href="#">
-                        <i class="fa-brands fa-x-twitter  text-white text-3xl"></i>
+                        <i class="fa-brands fa-x-twitter  text-white text-lg"></i>
                     </a>
                     <a href="#">
-                        <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                        <i class="fa-brands fa-instagram text-white text-lg"></i>
                     </a>
                     <a href="#">
-                        <i class="fa-brands fa-linkedin text-white text-3xl"></i>
+                        <i class="fa-brands fa-linkedin text-white text-lg"></i>
                     </a>
                     <a href="mailto:divineintldrivingschool@gmail.com" target="_blank">
-                        <i class="fa-regular fa-envelope text-white text-3xl"></i>
+                        <i class="fa-regular fa-envelope text-white text-lg"></i>
                     </a>
                 </div>
 
