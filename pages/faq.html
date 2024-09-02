@@ -104,14 +104,15 @@
                 <i class="fa-solid fa-caret-down"></i>
             </div><br>
             <p id="answer1" class="mt-2 text-gray-700 hidden transition-max-height max-h-0">We offer a variety of
-                driving courses tailored to different needs, including:<br>
-                Beginner Driver Course
-                Executive Course
-                Private lessons
-                Corporate training courses
-                Advance/Defensive driving course
-                Practical Driver Course
-                Theory Driver Course</p>
+                driving courses tailored to different needs:<br><br>
+                Beginner Driver Course<br>
+                Executive Course<br>
+                Private lessons<br>
+                Corporate training courses<br>
+                Advance/Defensive driving course<br>
+                Practical Driver Course<br>
+                Theory Driver Course<br>
+            </p>
         </div>
 
         <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
@@ -122,10 +123,10 @@
             </div>
             <br>
             <p id="answer2" class="mt-2 text-gray-700 hidden transition-max-height max-h-0">To enroll in our
-                courses, you must meet the following requirements:
-                • Be at least the minimum age required for the course.
-                • Hold a valid learner's permit or driver's license, as applicable.
-                • Provide necessary identification and documentation upon registration.
+                courses, you must meet the following requirements:<br>
+                • Be at least the minimum age required for the course.<br>
+                • Hold a valid learner's permit or driver's license, as applicable.<br>
+                • Provide necessary identification and documentation upon registration.<br>
             </p>
         </div>
 
@@ -136,10 +137,10 @@
             </div>
             <br>
             <p id="answer3" class="mt-2 text-gray-700 hidden transition-max-height max-h-0">You can book a driving
-                lesson by:
-                • Visiting our website and using the online booking system.
-                • Calling our office directly to schedule a lesson.
-                • Emailing us with your preferred date and time.
+                lesson by:<br>
+                • Visiting our website and using the online booking system.<br>
+                • Calling our office directly to schedule a lesson.<br>
+                • Emailing us with your preferred date and time.<br>
             </p>
         </div>
 
@@ -164,7 +165,7 @@
                 • Phone: +234 8035963573 +234 7068173660 <br>
                 • Email: divineintldrivingschool@gmail.com<br>
                 • In-person:
-                Suite D18 1st Floor Danziyal Plaza,
+                Suite D18 1st Floor Danziyal Plaza,<br>
                 Opposite NNPC Mega Station, Central Business District,
                 FCT Abuja.<br>
                 • Online contact form on our website
@@ -284,12 +285,12 @@
                 toggle.addEventListener('click', function () {
                     const answerId = this.getAttribute('data-toggle');
                     const answer = document.getElementById(answerId);
-                    const svgIcon = this.querySelector('svg');
+                    const svgIcon = this.querySelector('i');
 
                     // Toggle the 'hidden' class and max-height for collapsing/expanding
                     answer.classList.toggle('hidden');
                     if (answer.classList.contains('hidden')) {
-                        answer.style.maxHeight = '0';
+                        answer.style.maxHeight = '10';
                     } else {
                         answer.style.maxHeight = answer.scrollHeight + 'px';
                     }
